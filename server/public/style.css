@@ -1,0 +1,28 @@
+body, h1 {
+  margin: 0;
+}
+
+body {
+  background-color: #BDB3B3;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #667A72;
+  color: whitesmoke;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  background-color: #F6F4F4;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}

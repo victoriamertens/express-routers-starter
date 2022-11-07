@@ -1,0 +1,25 @@
+{
+  "name": "express-routers-starter",
+  "version": "1.0.0",
+  "description": "Routers (routing modules) can be used to organize code.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrimeAcademy/express-routers-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrimeAcademy/express-routers-starter/issues"
+  },
+  "homepage": "https://github.com/PrimeAcademy/express-routers-starter#readme"
+}

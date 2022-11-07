@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express Books & Movies</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.min.js"></script>
+  <script src="client.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Express Books & Movies</h1>
+  </header>
+  <main>
+    <section>
+      <h1>Books</h1>
+      <div>
+        <h2>Add a Book</h2>
+        <form>
+          <label>Title:</label>
+          <input id="book-title" class="book-input" type="text" />
+          <label>Author:</label>
+          <input id="book-author" class="book-input" type="text" />
+          <button id="add-book">Save</button>
+        </form>
+      </div>
+      <div>
+        <h2>All Books</h2>
+        <ul id="out-books">
+          <!-- jQuery will add books here -->
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h1>Movies</h1><div>
+        <h2>Add a Movie</h2>
+        <form>
+          <label>Title:</label>
+          <input id="movie-title" class="movie-input" type="text" />
+          <label>Director:</label>
+          <input id="movie-director" class="movie-input" type="text" />
+          <button id="add-movie">Save</button>
+        </form>
+      </div>
+      <div>
+        <h2>All Movies</h2>
+        <ul id="out-movies">
+          <!-- jQuery will add movies here -->
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
